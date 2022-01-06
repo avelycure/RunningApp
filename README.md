@@ -9,3 +9,4 @@ App for tracking your running trainings: distance, burned calories, average spee
 * Dagger
 * Google Maps API
 * MPAndroidCharts
+* [EasyPermissions](https://github.com/googlesamples/easypermissions)
