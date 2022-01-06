@@ -1,7 +1,8 @@
-package com.avelycure.runningapp
+package com.avelycure.runningapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.avelycure.runningapp.R
 import com.avelycure.runningapp.data.RunDAO
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
