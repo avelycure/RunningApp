@@ -9,13 +9,12 @@ import com.avelycure.runningapp.R
 import com.avelycure.runningapp.other.Constants.ACTION_START_OR_RESUME_SERVICE
 import com.avelycure.runningapp.services.TrackingService
 import com.avelycure.runningapp.ui.viewmodels.MainViewModel
-import com.avelycure.runningapp.ui.viewmodels.StatisticsViewModel
 import com.google.android.gms.maps.GoogleMap
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_tracking.*
 
 @AndroidEntryPoint
-class TrackingFragment:Fragment(R.layout.fragment_tracking) {
+class TrackingFragment : Fragment(R.layout.fragment_tracking) {
     private val viewModel: MainViewModel by viewModels()
 
     private var map: GoogleMap? = null
