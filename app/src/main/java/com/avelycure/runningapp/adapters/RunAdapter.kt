@@ -47,11 +47,11 @@ class RunAdapter: RecyclerView.Adapter<RunAdapter.RunViewHolder>() {
         holder.itemView.apply {
             Glide.with(this).load(run.img).into(ivRunImage)
 
-            val calendat = Calendar.getInstance().apply{
+            val calendar = Calendar.getInstance().apply{
                 timeInMillis = run.timestamp
             }
             val dateFormat = SimpleDateFormat("dd.MM.yy", Locale.getDefault())
-            tvDate.text = dateFormat.format(calendat.time)
+            tvDate.text = dateFormat.format(calendar.time)
 
             val avgSpeed= "${run.avgSpeedInKMH}km/h"
             tvAvgSpeed.text = avgSpeed
